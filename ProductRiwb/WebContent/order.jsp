@@ -19,9 +19,10 @@
 		Researcher ID :
 		<input type= 'text' name='researcherId' id='researcherId' class="form-control form-control-sm">
 		Date :
-		<input type= 'text' name='date' id='date' class="form-control form-control-sm">
+		<input type= 'text' name='date' id='date' class="form-control form-control-sm" placeholder="Year/Month/Day">
 		Time :
-		<input type= 'text' name='time' id='time' class="form-control form-control-sm">
+		<input type= 'text' name='time' id='time' class="form-control form-control-sm" placeholder="Hour:Minute:Seconds"
+		pattern="[0-9]{3}" required="required"/>
 		Total Amount :
 		<input type= 'text' name='totAmount' id='totAmount' class="form-control form-control-sm">
 		Status :
