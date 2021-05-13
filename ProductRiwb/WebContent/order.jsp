@@ -1,3 +1,4 @@
+<%@page import="com.Product"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
@@ -34,7 +35,12 @@
 	<div id='alertSuccess' class='alert alert-success'></div>
 	<div id='alertError' class='alert alert-danger'></div>
 	<br>
-	
+	<div id="divItemsGrid">
+	 <%
+	 Product obj = new Product();
+	 out.print(obj.viewOrder());
+	 %>
+	</div>
 	</div></div></div>
 </body>
 </html>
